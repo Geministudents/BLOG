@@ -2,10 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-#1111
-import pandas
-import django
-import time
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blog.settings')
@@ -21,6 +18,5 @@ def main():
 print("123")
 print("123")
 if __name__ == '__main__':
-    print("123")
-    print("123")
+
     main()
