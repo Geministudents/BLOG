@@ -3,7 +3,7 @@
 import os
 import sys
 
-
+import pandas
 import django
 import time
 def main():
