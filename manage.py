@@ -2,11 +2,6 @@
 """Django's command-line utility for administrative tasks."""
 import sys
 import os
-import pandas
-import django
-import time
-import numpy
-import matplotlib.pyplot as plt
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blog.settings')
